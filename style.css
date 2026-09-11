@@ -72,3 +72,13 @@ footer p { max-width: 44em; margin-top: 1rem; }
   footer { padding: 2.5rem 3rem; }
   .split { grid-template-columns: 1fr 1fr; gap: 3rem; }
 }
+
+.counts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; margin: 2rem 0 .75rem; max-width: 34em; }
+.counts div { border-top: 2px solid var(--blue); padding-top: .6rem; }
+.num { display: block; font-family: var(--sans); font-size: 2rem; font-weight: 600; color: var(--ink); line-height: 1.1; }
+.lbl { font-family: var(--sans); font-size: .85rem; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+.asof { font-family: var(--sans); font-size: .85rem; color: var(--muted); margin-bottom: 1.75rem; }
+@media (min-width: 48rem) { .counts { grid-template-columns: repeat(4, 1fr); } }
+
+.entry figure { margin: 1.5rem 0 0; max-width: 34rem; }
+.entry figure img { border-radius: 3px; }
