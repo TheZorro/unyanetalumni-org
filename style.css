@@ -82,3 +82,7 @@ footer p { max-width: 44em; margin-top: 1rem; }
 
 .entry figure { margin: 1.5rem 0 0; max-width: 34rem; }
 .entry figure img { border-radius: 3px; }
+
+.entry h4 { font-family: var(--sans); font-size: 1rem; color: var(--ink); margin: 1.75rem 0 .5rem; }
+.entry figure img { width: 100%; }
+.closed { font-family: var(--sans); font-size: .9rem; color: var(--muted); border-left: 3px solid var(--line); padding-left: 1rem; }
