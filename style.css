@@ -51,6 +51,10 @@ blockquote cite { font-family: var(--sans); font-size: .85rem; color: var(--mute
 .when { font-family: var(--sans); color: var(--muted); font-size: .9rem; padding-top: .15rem; }
 .list small { display: block; font-family: var(--sans); color: var(--muted); font-size: .85rem; }
 .more { margin-top: 1.25rem; font-family: var(--sans); }
+.note { font-size: .95rem; color: var(--muted); border-left: 3px solid var(--line); padding-left: 1rem; }
+.cta { margin-top: 1.5rem; }
+.cta a { display: inline-block; font-family: var(--sans); font-size: 1rem; background: var(--blue); color: #fff; padding: .8rem 1.5rem; border-radius: 3px; text-decoration: none; }
+.cta a:hover { background: var(--ink); color: #fff; }
 
 .entry { padding: 2.5rem 0; border-bottom: 1px solid var(--line); }
 .entry h3 { font-size: 1.35rem; margin-bottom: .25rem; }
